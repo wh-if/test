@@ -1,11 +1,10 @@
 const http = require("http")
 
 const fs = require('fs/promises')
-
+fs.writeFile('./t1.txt', "hello t1");
 let flag = false;
 const server = http.createServer(async (req, res) => {
   if (!false) {
-    await fs.writeFile('./t1.txt', "hello t1");
     flag = true;
   }
   const result = await fs.readdir('.');
