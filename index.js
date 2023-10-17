@@ -5,7 +5,7 @@ const fs = require('fs/promises')
 let flag = false;
 const server = http.createServer(async (req, res) => {
   if (!false) {
-    fs.writeFile('./t1.txt', "hello t1");
+    // fs.writeFile('./t1.txt', "hello t1");
     flag = true;
   }
   const result = await fs.readdir('.');
