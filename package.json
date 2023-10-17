@@ -4,10 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "npm start",
+    "build": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node ./index.js"
+    "vercel": "vercel"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "vercel": "^32.4.1"
+  }
 }
