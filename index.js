@@ -15,4 +15,4 @@ const server = http.createServer(async (req, res) => {
   }));
 });
 
-server.listen(8000);
+server.listen(80);
